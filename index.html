@@ -2,20 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
     <title>Carbon Repo</title>
   </head>
   <body>
     <center>
-      <a href="mailto:carbonrepodotcom@gmail.com">
         <img src="logo.png" width='50%'/>
-        <h1
-          style="font-family: 'Roboto', sans-serif; text-decoration: 'none';">
-          Contact
-        </h1>
-      </a>
     </center>
+    <div class="container">
+      <form action="https://formspree.io/f/xknewryr" method="POST">
+        <label>Email</label>
+        <input type="email" name="email" size="40" height="35" align="center">
+        <label>Message</label>
+        <textarea name="message" rows="10" cols="80"></textarea>
+      <input type="submit" value="Send"></button>
+      </form>
+    </div>
+
   </body>
 </html>
